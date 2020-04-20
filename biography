@@ -6,41 +6,40 @@
 
 <body>
     <h1>
-        Задание 1. Моя биография1
+        История моей жизни
     </h1>
-    <div>
-        <p>Ut irure magna sit laborum pariatur aute veniam esse ipsum. Officia consequat sint nulla mollit ut. Laboris
-            qui ullamco qui non nulla pariatur aliquip id cupidatat occaecat non pariatur magna.</p>
         <p>
-            Fugiat Lorem aute sit in anim ullamco dolor sint. Dolore ut ea ipsum aute exercitation est commodo mollit id
-            in. Veniam mollit dolor est duis sit commodo qui. In consectetur ea sunt cupidatat pariatur et pariatur sint
-            culpa sunt pariatur dolor aute.
+        Меня зовут Илья. Я родился в Лондоне. Когда мне было одиннадцать, я увидел на своем подоконнике красивую белую сову,
+        которая держала в клюве что то похожее на письмо. Этот момент перевернул всю мою жизнь. Это было приглашение в школу 
+        для особенных ребят под названием <b>Хогвартс</b>.
         </p>
         <p>
-            Ad excepteur aute mollit labore mollit laborum exercitation commodo est nisi officia in minim. Voluptate
-            aliqua voluptate ullamco proident nulla qui officia. Amet excepteur pariatur Lorem irure magna. Commodo ea
-            dolore amet adipisicing excepteur. Irure veniam ipsum laborum non. Et voluptate culpa consequat exercitation
-            anim eiusmod. Ut labore consequat et esse aute commodo veniam.
+            Попав туда впервые я увидел то, что никогда в жизни не смог бы себе представить:
+           <ul>
+            <li>посуда парила в воздухе сама по себе</li>
+            <li>книги сами складывались в стопки</li>
+            <li>шляпа на голове у преподователя могла говорить</li>
+            <li>старшекурсники летали верхом на метлах</li>
+            </ul>
         </p>
         <p>
-            Lorem nisi aute irure qui fugiat. Irure cupidatat irure incididunt elit laborum et voluptate cillum pariatur
-            amet est tempor ad et. Consectetur Lorem tempor cupidatat et est nulla fugiat commodo ipsum dolor ex
-            consectetur. Nisi minim enim aliquip mollit non quis anim exercitation adipisicing duis ipsum. Anim non et
-            ex quis proident aute. Nulla aute ad exercitation deserunt aliquip cillum quis.
+            В школе та самая шляпа, которая умела говорить, распределяла первокурсников по факультетам. Их было четыре:
+            <ol>
+            <li>Грифиндор</li>
+            <li>Слизерин</li>
+            <li>Когтевран</li>
+            <li>Пуфендуй</li>
+            </ol>
         </p>
-    </div>
-    <ul>
-        <li>First element</li>
-        <li>Second element</li>
-        <li>Third element</li>
-    </ul>
-    <div>
-        <span>Sunt sit deserunt ut occaecat qui reprehenderit ad mollit labore Lorem aute aliquip et. Laborum minim in
-            labore irure proident mollit veniam magna in anim esse. Nulla laboris esse aliqua ea ipsum ipsum proident do
-            qui cillum occaecat aliquip magna. Adipisicing ut laborum id amet cupidatat cupidatat. Laboris quis ullamco
-            laboris reprehenderit. Irure laboris est ex cupidatat aliqua dolore eiusmod qui. Dolor mollit esse commodo
-            ullamco cupidatat officia adipisicing.</span>
-    </div>
+        <p>
+            Каждый год учебы в этой школе был интереснее предыдущего. Мы с друзьями постоянно попадали в различные истории и переделки.
+            Иногда даже очень опасные. Но что бы ни происходило, мы всегда помогали друг другу и оставались верными до конца. 
+        </p>
+        <p>
+        Но в итоге к 30 годам я понял, что волшебства не существует и решил стать веб-разработчиком.
+        <img src="/smile.jpg" alt="смайлик-как то так">
+        </p>
+
 </body>
 
 </html>
