@@ -1,0 +1,31 @@
+.nameschool{
+    color: blue;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+html {
+    background-color: black;
+}
+body {
+    max-width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: rgb(251, 255, 5);
+    font-size: x-large;
+    border: gold;
+}
+.p1,p2,p3,p4,p5 {
+color: blanchedalmond;
+font-size: 30px;
+}
+li{
+    font-size: 35px;
+    color: lawngreen;
+    font-style: italic;
+}
+img[data-smile-image]{
+    width: 70px;
+}
