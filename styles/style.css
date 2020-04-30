@@ -1,59 +1,73 @@
+.header{
+    border: 2px solid blue;
+}
+.last{
+    clear: both;
+}
+.left-column{
+    float: left;
+    width: 30%;
+}
+.right-column{
+    float: right;
+    width: 70%;
+}
 .nameschool {
     color: blue;
-    font-size: 50px;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: bolder;
 }
 
 html {
-    background-color: black;
+    background-color: #ffffff;
 }
 
 body {
-    max-width: max-content;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
-    color: rgb(251, 255, 5);
+    color: red;
     font-size: 50px;
     border: gold;
     letter-spacing: 2px;
 }
 
 .p1 {
-    color: blanchedalmond;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-top: 0;
 }
 
 li {
-    font-size: 25px;
+    font-size: 14px;
     color: lawngreen;
     font-style: italic;
     line-height: 2;
 }
 
 img[data-smile-image] {
-    width: 70px;
+    width: 50px;
 }
 
 .p2 {
-    color: blanchedalmond;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
 }
 
 .p3 {
-    color: blanchedalmond;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
 }
 
 .p4 {
-    color: blanchedalmond;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
 }
 
 .p5 {
-    color: blanchedalmond;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
 }
