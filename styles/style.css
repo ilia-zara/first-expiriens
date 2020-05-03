@@ -1,73 +1,79 @@
-.header{
-    border: 2px solid blue;
-}
-.last{
-    clear: both;
-}
-.left-column{
-    float: left;
-    width: 30%;
-}
-.right-column{
-    float: right;
-    width: 70%;
-}
-.nameschool {
-    color: blue;
-    font-size: 20px;
+.header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(223, 11, 11);
+    text-shadow: 5px 5px 10px #ffffff;
+    font-size: 50px;
     letter-spacing: 2px;
-    font-weight: bolder;
+    font-style: oblique;
 }
 
-html {
-    background-color: #ffffff;
+.last {
+    clear: both;
+    text-align: left;
 }
+
+.left-column {
+    display: block;
+    float: left;
+    width: 240px;
+    height: 320px;
+}
+
+.right-column {
+    display: block;
+    float: right;
+    width: 83%;
+}
+
+.nameschool {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(230, 5, 5);
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images//back.jpg);
+    background-size: cover;
 }
 
-h1 {
-    text-align: center;
-    color: red;
-    font-size: 50px;
-    border: gold;
-    letter-spacing: 2px;
-}
-
-.p1 {
-    color: rgb(0, 0, 0);
-    font-size: 12px;
+.p1{
+    color: black;
+    font-size: 20px;
     margin-top: 0;
 }
 
-li {
-    font-size: 14px;
-    color: lawngreen;
-    font-style: italic;
-    line-height: 2;
-}
+    .p2 {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
 
-img[data-smile-image] {
-    width: 50px;
-}
+    .p3 {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
 
-.p2 {
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-}
+    .p4 {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
 
-.p3 {
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-}
+    .p5 {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
 
-.p4 {
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-}
+    li{
+        font-size: 20px;
+        color: brown;
+        font-style: italic;
+        line-height: 1;
+    }
 
-.p5 {
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-}
+    img[data-smile-image]{
+        width: 70px;
+    }
