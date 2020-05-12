@@ -1,79 +1,142 @@
-.header {
-    border-bottom: 2px solid rgb(0, 0, 0);
-    text-align: center;
-    color: rgb(223, 11, 11);
-    text-shadow: 5px 5px 10px #ffffff;
-    font-size: 50px;
-    letter-spacing: 2px;
-    font-style: oblique;
-}
-
-.last {
-    clear: both;
-    text-align: left;
-}
-
-.left-column {
-    display: block;
-    float: left;
-    width: 240px;
-    height: 320px;
-}
-
-.right-column {
-    display: block;
-    float: right;
-    width: 83%;
-}
-
-.nameschool {
-    font-size: 25px;
-    font-style: italic;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    color: rgb(230, 5, 5);
-}
-
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/images//back.jpg);
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: rgb(31, 30, 30);
+    line-height: 1.6;
+    background-image: url(/images/back1.jpg);
     background-size: cover;
 }
 
-.p1{
-    color: black;
-    font-size: 20px;
-    margin-top: 0;
+
+#header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-shadow: 3px 5px 10px rgb(2, 2, 2);
+    font-family: 'Marck Script', cursive;
 }
 
-    .p2 {
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-    }
 
-    .p3 {
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-    }
+h1 {
+    margin: 0;
+}
 
-    .p4 {
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-    }
+/*контент*/
 
-    .p5 {
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-    }
+.content {
+    min-width: 1500px;;
+}
 
-    li{
-        font-size: 20px;
-        color: brown;
-        font-style: italic;
-        line-height: 1;
-    }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-    img[data-smile-image]{
-        width: 70px;
-    }
+/*правая колонка контента*/
+
+.story {}
+
+.content1 {
+    float: right;
+    width: 80%;
+}
+
+/*название школы*/
+
+.nameschool {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+
+.a__btn{
+    color: brown;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.a__btn:hover{
+    color: black;
+}
+
+/*левая колонка контента*/
+
+.content2 {
+    float: left;
+    width: 20%;
+}
+
+.photo {
+    width: 240px;
+    height: 320px;
+    margin: 30px 30px;
+}
+
+.all {
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 15px;
+    transition: background .2s linear, color .2s linear;
+}
+
+.btn:hover {
+    background-color: black;
+    color: brown;
+}
+
+.commercial {
+    width: 240px;
+    height: 200px;
+    background-color: gray;
+    margin: 30px 30px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 70px;
+}
+
+/*футер с контактами*/
+
+#footer {}
+
+.contact {
+    clear: both;
+    border-top: 2px solid black;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon__item{
+    width: 33%;
+    text-align: center;
+}
+
+img[data-insta-image] {
+    width: 70px;
+}
+
+img[data-vk-image] {
+    width: 70px;
+}
+
+img[data-fb-image] {
+    width: 70px;
+}
+
+img[data-smile-image] {
+    width: 70px;
+}
