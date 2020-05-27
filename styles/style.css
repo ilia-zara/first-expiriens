@@ -1,126 +1,69 @@
-body {
-    margin: 0;
-    font-family: 'Pacifico', cursive;
-    font-size: 20px;
-    color: rgb(31, 30, 30);
-    line-height: 1.6;
-    background-image: url(/images/back1.jpg);
-    background-size: cover;
+/*layout*/
+
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
 #header {
     text-align: center;
     border-bottom: 2px solid black;
-    text-shadow: 3px 5px 10px rgb(2, 2, 2);
-    font-family: 'Marck Script', cursive;
 }
-
 
 h1 {
     margin: 0;
 }
 
-/*контент*/
-
 .content {
-    min-width: 1500px;;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
 }
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/*правая колонка контента*/
-
-.story {}
 
 .content1 {
-    float: right;
-    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 780px;
 }
-
-/*название школы*/
-
-.nameschool {
-    font-weight: bolder;
-    font-size: 30px;
-    font-family: 'Marck Script', cursive;
-}
-
-.a__btn{
-    color: brown;
-    text-decoration: none;
-    transition: color .2s linear;
-}
-
-.a__btn:hover{
-    color: black;
-}
-
-/*левая колонка контента*/
 
 .content2 {
-    float: left;
-    width: 20%;
-}
-
-.photo {
-    width: 240px;
-    height: 320px;
-    margin: 30px 30px;
-}
-
-.all {
-    margin: 30px 30px;
-    text-align: center;
+    width: 1000px;
 }
 
 .btn {
     text-decoration: none;
-    color: black;
     border: 2px solid black;
     border-radius: 10px;
     padding: 0px 15px;
-    transition: background .2s linear, color .2s linear;
-}
-
-.btn:hover {
-    background-color: black;
-    color: brown;
 }
 
 .commercial {
-    width: 240px;
-    height: 200px;
-    background-color: gray;
-    margin: 30px 30px;
-    font-family: sans-serif;
+    display: flex;
     text-align: center;
-    padding-top: 70px;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
 }
-
-/*футер с контактами*/
-
-#footer {}
 
 .contact {
-    clear: both;
     border-top: 2px solid black;
     text-align: center;
-    font-family: 'Marck Script', cursive;
-    font-weight: bolder;
-    font-size: 40px;
 }
 
-.icon{
+.icon {
     display: flex;
     justify-content: space-evenly;
 }
 
-.icon__item{
+.icon__item {
     width: 33%;
     text-align: center;
 }
@@ -137,6 +80,66 @@ img[data-fb-image] {
     width: 70px;
 }
 
-img[data-smile-image] {
-    width: 70px;
+/*colors*/
+
+body {
+    color: rgb(31, 30, 30);
+    background-image: url(/images/back1.jpg);
+    background-size: cover;
+}
+
+#header {
+    text-shadow: 3px 5px 10px rgb(2, 2, 2);
+}
+
+.a__btn {
+    color: brown;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.a__btn:hover {
+    color: black;
+}
+
+.btn {
+    color: black;
+    transition: background .2s linear, color .2s linear;
+}
+
+.btn:hover {
+    background-color: black;
+    color: brown;
+}
+
+.commercial {
+    background-color: gray;
+}
+
+/*fonts*/
+
+body {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#header {
+    font-family: 'Marck Script', cursive;
+}
+
+.nameschool {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+
+.commercial {
+    font-family: sans-serif;
+}
+
+.contact {
+    font-family: 'Marck Script', cursive;
+    font-weight: bolder;
+    font-size: 40px;
 }
